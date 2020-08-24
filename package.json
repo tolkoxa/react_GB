@@ -1,0 +1,42 @@
+{
+    "name": "24082020",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode development",
+        "dev": "webpack-dev-server --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tolkoxa/react_GB.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tolkoxa/react_GB/issues"
+    },
+    "homepage": "https://github.com/tolkoxa/react_GB#readme",
+    "devDependencies": {
+        "@babel/core": "^7.11.4",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/preset-react": "^7.10.4",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^4.2.2",
+        "html-webpack-plugin": "^4.3.0",
+        "mini-css-extract-plugin": "^0.10.0",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
